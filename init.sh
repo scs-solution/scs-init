@@ -28,4 +28,5 @@ git clone https://github.com/scs-solution/scs-hooks
 cd scs-hooks
 sudo ./install.sh
 sudo nohup ./run.sh &
+sudo ./hooks-backend-ci.sh
 cd ..
