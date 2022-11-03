@@ -17,3 +17,15 @@ mkdir config && cd conifg && touch database.db
 echo "CREATE SCHEMA IF NOT EXISTS scs;" >> database.db
 cd ..
 sudo docker-compose up -d
+
+git clone https://github.com/scs-solution/scs-backend-host
+cd scs-backend-host
+sudo ./install.sh
+sudo ./run.sh
+cd ..
+
+git clone https://github.com/scs-solution/scs-hooks
+cd scs-hooks
+sudo ./install.sh
+sudo ./run.sh
+cd ..
