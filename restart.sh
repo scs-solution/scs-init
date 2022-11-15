@@ -4,3 +4,4 @@ cd scs-backend-host
 sudo nohup ./run.sh &
 cd ../scs-hooks
 sudo nohup ./run.sh &
+wssh --fbidhttp=False &
