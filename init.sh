@@ -30,3 +30,5 @@ sudo ./install.sh
 sudo nohup ./run.sh &
 sudo ./hooks-backend-ci.sh
 cd ..
+
+sudo pip3 install webssh
