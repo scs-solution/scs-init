@@ -1,6 +1,6 @@
 sudo pip3 install gunicorn flask
 
-sudo yum install -y yum-utils jq docker git
+sudo yum install -y yum-utils jq docker git libpcap-devel golang
 
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
 sudo yum -y install terraform
