@@ -4,6 +4,10 @@ sudo yum install -y yum-utils jq docker git libpcap-devel golang
 sudo amazon-linux-extras install nginx1
 
 sudo service docker start
+sudo service nginx start
+
+sudo chown -R ec2-user:ec2-user /usr/share/nginx/html
+sudo chmod -R g+rw /usr/share/nginx/html; find /usr/share/nginx/html -type d -print0 | sudo xargs -0 chmod g+s
 
 sudo yum-config-manager --add-repo https://rpm.releases.hashicorp.com/AmazonLinux/hashicorp.repo
 sudo yum -y install terraform
