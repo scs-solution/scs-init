@@ -1,6 +1,7 @@
 sudo pip3 install gunicorn flask
 
 sudo yum install -y yum-utils jq docker git libpcap-devel golang
+sudo amazon-linux-extras install nginx1
 
 sudo service docker start
 
