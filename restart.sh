@@ -5,3 +5,4 @@ sudo nohup ./run.sh &
 cd ../scs-hooks
 sudo nohup ./run.sh &
 wssh  --origin='http://www.rollrat.com' &
+sudo service nginx restart
