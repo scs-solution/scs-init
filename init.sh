@@ -39,3 +39,4 @@ sudo ./hooks-backend-ci.sh
 cd ..
 
 sudo pip3 install webssh
+/usr/local/bin/wssh --origin='http://www.rollrat.com' &
